@@ -1,16 +1,9 @@
-// ===============================
-// CONFIGURAÇÕES DO SITE
-// ===============================
 
-// coloque seu numero aqui
 const whatsappNumber = "351938610646"
 
-// mensagem automática
+
 const whatsappMessage = "Olá, Matheus! Tenho interesse em aulas de saxofone."
 
-// ===============================
-// BOTÃO WHATSAPP
-// ===============================
 
 const whatsappBtn = document.getElementById("btnWhatsapp")
 
@@ -27,10 +20,6 @@ window.open(url, "_blank")
 }
 
 
-// ===============================
-// BOTÃO AGENDAR AULA
-// ===============================
-
 const agendarBtn = document.getElementById("btnAgendar")
 
 if(agendarBtn){
@@ -46,9 +35,6 @@ window.open(url, "_blank")
 }
 
 
-// ===============================
-// SCROLL SUAVE NO MENU
-// ===============================
 
 const menuLinks = document.querySelectorAll('nav a')
 
@@ -71,9 +57,6 @@ behavior: "smooth"
 })
 
 
-// ===============================
-// DESTACAR MENU ATIVO
-// ===============================
 
 const sections = document.querySelectorAll("section")
 const navLinks = document.querySelectorAll("nav a")
@@ -110,9 +93,6 @@ link.classList.add("active")
 })
 
 
-// ===============================
-// ANIMAÇÃO AO APARECER
-// ===============================
 
 const observer = new IntersectionObserver(entries => {
 
@@ -143,9 +123,6 @@ observer.observe(card)
 })
 
 
-// ===============================
-// DEBUG INICIAL
-// ===============================
 
 console.log("Site de aulas de saxofone carregado com sucesso 🎷")
 
