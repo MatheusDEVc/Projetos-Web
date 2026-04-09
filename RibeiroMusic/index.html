@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ribeiro Music</title>
+
+<style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+padding:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a.active{
+color:#c49b3d;
+}
+
+.hero{
+background:#222;
+color:white;
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+
+.section h2{
+margin-bottom:20px;
+}
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:8px;
+flex:1;
+min-width:250px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.video{
+text-align:center;
+}
+
+.contact{
+background:#111;
+color:white;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#000;
+color:white;
+}
+
+button{
+background:#c49b3d;
+border:none;
+padding:12px 20px;
+color:white;
+font-weight:bold;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#a8842f;
+}
+
+
+.card.online{
+border:2px solid #c49b3d;
+background:#fffaf0;
+position:relative;
+}
+
+.badge{
+background:#c49b3d;
+color:white;
+padding:5px 10px;
+font-size:12px;
+border-radius:20px;
+position:absolute;
+top:-10px;
+right:15px;
+}
+
+.card.online h3{
+color:#b88a1b;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<nav>
+
+<h2>🎷 Ribeiro Music</h2>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#aulas">Aulas</a></li>
+<li><a href="#videos">Vídeos</a></li>
+<li><a href="#contato">Contato</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+<h1>Aprenda Saxofone</h1>
+
+<p>Aprenda saxofone do zero, ou evolua sua técnica com aulas personalizadas.</p>
+
+<!-- EDITAR BOTÃO -->
+<button id="btnAgendar">Agendar Aula Experimental</button>
+
+</section>
+
+
+
+<!-- SOBRE -->
+
+<section class="section" id="sobre">
+
+<h2>Sobre o Professor</h2>
+
+<p>
+
+Meu nome é Matheus Ribeiro, atualmente tenho 20 anos de idade, e sou saxofonista há mais de 10 anos. Tenho paixão pelo instrumento e pela música. Já toquei em diversas bandas e projetos musicais, e agora quero compartilhar meu conhecimento e experiência com você!
+
+</p>
+
+</section>
+
+
+
+<!-- AULAS -->
+
+<section class="section" id="aulas">
+
+<h2>Conteúdo das Aulas</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Iniciante</h3>
+
+<p>Para quem nunca tocou saxofone.</p>
+
+<ul>
+
+<li>Conhecendo as partes do saxofone</li>
+
+<li>Montagem correta do instrumento</li>
+
+<li>Postura e posicionamento das mãos</li>
+
+<li>Técnica de respiração</li>
+
+<li>Produção do primeiro som</li>
+
+<li>Primeiras notas no instrumento</li>
+
+<li>Leitura musical básica</li>
+
+<li>Exercícios de ritmo</li>
+
+<li>Escalas iniciais</li>
+
+<li>Primeiras músicas simples</li>
+
+<li>Noções básicas de improvisação</li>
+
+<li>Cuidados e manutenção do saxofone</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h3>Intermediário</h3>
+
+<p>Para alunos que já possuem alguma experiência no saxofone.</p>
+
+<ul>
+
+<li>Desenvolvimento da técnica no instrumento</li>
+
+<li>Controle avançado de respiração</li>
+
+<li>Articulação (staccato, legato e variações)</li>
+
+<li>Escalas maiores e menores</li>
+
+<li>Introdução às escalas pentatônicas e blues</li>
+
+<li>Estudo de arpejos</li>
+
+<li>Leitura musical intermediária</li>
+
+<li>Improvisação básica</li>
+
+<li>Estudo de repertório (jazz, pop ou outros estilos)</li>
+
+<li>Desenvolvimento da musicalidade</li>
+
+<li>Interpretação e dinâmica musical</li>
+
+<li>Exercícios para melhorar velocidade e precisão</li>
+
+</ul>
+
+</div>
+
+
+<div class="card online">
+
+<span class="badge">Disponível em Brasil e Portugal</span>
+
+<h3>🎷 Aulas Online</h3>
+
+<p>Aulas individuais por videochamada.</p>
+
+<ul>
+
+<li>Aulas ao vivo e personalizadas</li>
+
+<li>Material de estudo enviado após a aula</li>
+
+<li>Correção de técnica em tempo real</li>
+
+<li>Ideal para alunos de qualquer cidade</li>
+
+<li>Flexibilidade de horários</li>
+
+<li>Estudo de repertório (jazz, pop ou outros estilos)</li>
+
+</ul>
+
+<button id="btnOnline">Agendar Aula Online</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- VIDEOS -->
+
+<section class="section video" id="videos">
+
+<h2>Vídeos</h2>
+
+<p>Veja algumas performances:</p>
+
+<!-- SUBSTITUIR PELO SEU VIDEO -->
+
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/7SEEPRvldIs"
+title="Matiné de Combos da Academia de Jazz - Matheus Ribeiro - Saxofone" 
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</section>
+
+
+
+<!-- CONTATO -->
+
+<section class="section contact" id="contato">
+
+<h2>Contato</h2>
+
+<p>Email: matheusribeiro444xd@gmail.com</p>
+
+<p>WhatsApp: +351 938 610 646</p>
+
+<p>Cidade: Baixa da banheira - Moita</p>
+
+<button id="btnWhatsapp">Falar no WhatsApp</button>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Aulas de Saxofone - Ribeiro Music</p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
